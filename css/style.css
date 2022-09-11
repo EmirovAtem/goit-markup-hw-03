@@ -324,7 +324,6 @@ margin-top: 30px;
   background-color: var(--team-section-background);
 
   padding: 6px 22px;
-  margin-right: 8px; 
 }
 .buttons:hover,
 .buttons:focus {
@@ -333,15 +332,16 @@ margin-top: 30px;
 }
 
 
-.portfolio-names .portfolio-items:last-child {
-  margin-right: 0px;
-}
+
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
 }
-.portfolio-list .element + .element {
+.portfolio-items{
   margin-right: 8px;
+}
+.portfolio-names .portfolio-items:last-child {
+  margin-right: 0px;
 }
 
 
