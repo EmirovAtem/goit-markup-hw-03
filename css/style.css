@@ -145,8 +145,8 @@ h3 {
 /* HERO */
 
 .hero {
-  width: 1600px;
-  height: 600px;
+  /* width: 1600px;
+  height: 600px; */
   background-color: var(--hero-background-color);
 
   padding: 200px 0;
@@ -290,16 +290,17 @@ letter-spacing: 0.03em;
 text-align: center;
 color: var(--title-text-color);
 
-margin-top: 30px;
+margin-bottom: 10px;
+}
+.paragraph-inline {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .comand-paragraph {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  text-align: center;
-
-  margin-top: 10px;
-  margin-bottom: 30px;
+  text-align: center;  
 }
 
 /* PORTFOLIO */
@@ -369,6 +370,10 @@ margin-top: 30px;
 }
 .portfolio-link {
   padding: 20px 24px;
+  border-left: 1px solid var(--portfolio-card-border);
+  border-right: 1px solid var(--portfolio-card-border);
+  border-bottom: 1px solid var(--portfolio-card-border);
+  
 }
 .portfolio-title {
  
