@@ -19,9 +19,9 @@
   --header-section-border: #ECECEC;
   --portfolio-card-border: #eeeeee;
 }
-/* * {
+* {
   outline: 2px solid tomato;
-} */
+}
 ul,
 a {
   list-style: none;
